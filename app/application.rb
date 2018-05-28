@@ -4,7 +4,7 @@ class Application
   def call(dev)
     binding.pry
     resp = Rack::Responses.new
-    binding.pry
+    
     time = Time.new
     time = time.hour
 
