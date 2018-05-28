@@ -8,7 +8,7 @@ class Application
     time = Time.new
     time = time.hour
 
-    if time.between?(0, 12)
+    if time.between?(0, 12) = true
     resp.write "Good Morning"
   else
     resp.write "Good Afternoon"
