@@ -10,7 +10,7 @@ class Application
 
     if time == "PM"
     resp.write "Good Afternoon"
-  else
+  elsif time == "AM"
     resp.write "Good Morning"
   end
     resp.finish
