@@ -8,7 +8,7 @@ class Application
     time = Time.new
     time = time.strftime("%p")
 
-    if time == "AM
+    if time == "AM"
     resp.write "Good Morning"
   else
     resp.write "Good Afternoon"
