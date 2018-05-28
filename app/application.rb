@@ -6,9 +6,9 @@ class Application
     resp = Rack::Response.new
 
     time = Time.new
-    time = time.hour
+    time = time.strftime("%p")
 
-    if time.between?(12,12) == true
+    if time == "AM
     resp.write "Good Morning"
   else
     resp.write "Good Afternoon"
