@@ -9,9 +9,9 @@ class Application
     time = time.strftime("%p")
 
     if time == "PM"
-    resp.write "Good Afternoon"
+    resp.write "Good Afternoon!"
   elsif time == "AM"
-    resp.write "Good Morning"
+    resp.write "Good Morning!"
   end
     resp.finish
   end
