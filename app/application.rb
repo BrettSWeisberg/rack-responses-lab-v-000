@@ -9,7 +9,7 @@ class Application
     time = time.hour
 
     if time.between?(0, 11) == true
-    resp.write "Morning"
+    resp.write "Good Morning"
   else
     resp.write "Good Afternoon"
   end
