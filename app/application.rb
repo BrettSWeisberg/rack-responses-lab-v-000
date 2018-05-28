@@ -8,10 +8,10 @@ binding.pry
     time = Time.new
     time = time.strftime("%p")
 
-    if time == "AM"
-    resp.write "Good Morning"
-  else
+    if time == "PM"
     resp.write "Good Afternoon"
+  else
+    resp.write "Good Morning"
   end
     resp.finish
   end
