@@ -2,7 +2,7 @@ require 'pry'
 class Application
 
   def call(dev)
-    binding.pry
+#    binding.pry
     resp = Rack::Responses.new
 
     time = Time.new
