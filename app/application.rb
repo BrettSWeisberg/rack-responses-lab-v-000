@@ -5,7 +5,7 @@ class Application
     binding.pry
     resp = Rack::Response.new
 
-    time = Time.new
+    time = Time.now
     time = time.strftime("%p")
 
     if time == "PM"
