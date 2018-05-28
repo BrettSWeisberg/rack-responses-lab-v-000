@@ -1,7 +1,7 @@
 require 'pry'
 class Application
 
-  def call(dev)
+  def call(env)
 #    binding.pry
     resp = Rack::Responses.new
 
