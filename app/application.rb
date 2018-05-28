@@ -1,4 +1,4 @@
-
+binding.pry
 class Application
 
   def call(dev)
